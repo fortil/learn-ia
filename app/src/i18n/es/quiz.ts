@@ -1,0 +1,92 @@
+export default {
+  cover: {
+    sticker: 'Prueba final de explorador',
+    // reassembled as titleBefore + <underlined titleHighlight> + titleAfter
+    titleBefore: '¿Cuánto sabes ya del ',
+    titleHighlight: 'viaje',
+    titleAfter: '?',
+    subtitle:
+      '5 preguntas, 30 segundos cada una como máximo (sin cronómetro real, tranquilo). Al final: tu insignia de Explorador de la IA.',
+    cta: '¡Empezar!',
+    mascotAlt: 'Preguntín celebrando con confeti',
+  },
+  game: {
+    // progress header: questionWord + n + of + total
+    questionWord: 'Pregunta',
+    of: 'de',
+    why: '¿Por qué?',
+    seenAt: 'Lo viste en:',
+    next: 'Siguiente',
+    seeBadge: 'Ver mi insignia',
+  },
+  result: {
+    badgeAlt: 'Insignia de Explorador de la IA',
+    titlePerfect: '¡Explorador Legendario! 🏆',
+    titleGood: '¡Explorador Oficial! ⭐',
+    titleLow: 'Explorador en Prácticas 🌱 — el mapa te espera para otro paseo.',
+    // reassembled as scoreBefore + score + scoreOf + total + scoreAfter
+    scoreBefore: 'Acertaste ',
+    scoreOf: ' de ',
+    scoreAfter: '. Ya sabes más de inferencia que el 90% de la gente que la usa a diario.',
+    restart: 'Repetir el quiz',
+    revisitMap: 'Revisitar el mapa',
+    share: 'Compartir mi insignia',
+    copied: '¡Copiado!',
+    // reassembled as shareTextBefore + score/total + shareTextAfter
+    shareTextBefore: '¡Soy Explorador de la IA! Acerté ',
+    shareTextAfter: " en 'El Viaje de tu Pregunta' 🧭",
+  },
+  review: {
+    title: 'Repaso de tus respuestas',
+    yourAnswer: 'Tu respuesta:',
+    correctAnswer: 'La correcta:',
+    reviewAt: 'Repásalo en:',
+  },
+  questions: {
+    q1: {
+      question: 'Le escribes una pregunta a una IA. ¿Qué es lo PRIMERO que pasa?',
+      o1: 'La IA piensa durante un rato como una persona',
+      o2: "Tu pregunta entra al sistema: es 'la entrada'",
+      o3: 'La IA busca la respuesta en Google',
+      o4: 'Tu pregunta se guarda para siempre',
+      why: 'Sin entrada no hay viaje: texto, voz o foto, todo empieza ahí.',
+      refLabel: 'El Mapa · Parada 1',
+    },
+    q2: {
+      question: "¿Qué son los 'tokens'?",
+      o1: 'Monedas para pagar a la IA',
+      o2: 'Pedacitos en que se trocea tu frase (palabras o trozos de palabra)',
+      o3: 'Los servidores donde vive la IA',
+      o4: 'Contraseñas secretas',
+      why: 'Como cortar el pan en rebanadas: trocitos manejables que se convierten en números.',
+      refLabel: 'El Mapa · Parada 2',
+    },
+    q3: {
+      question: '¿Cómo escribe la IA sus respuestas?',
+      o1: 'Copia párrafos enteros de internet',
+      o2: 'Suelta todas las palabras a la vez',
+      o3: 'Predice la palabra más probable, una tras otra',
+      o4: 'Pregunta a otras IAs',
+      why: 'Como el autocorrector de tu móvil: siguiente palabra, siguiente palabra… hasta terminar.',
+      refLabel: 'El Mapa · Parada 4',
+    },
+    q4: {
+      question: '¿Cuál es la diferencia entre entrenamiento e inferencia?',
+      o1: 'Son dos nombres para lo mismo',
+      o2: 'Entrenar = aprender una vez (meses, carísimo); inferencia = usar lo aprendido cada vez que preguntas (segundos)',
+      o3: 'Entrenar es lo que haces tú al practicar',
+      o4: 'Inferencia es cuando la IA estudia',
+      why: 'El cocinero: años aprendiendo recetas = entrenamiento; cocinar tu plato = inferencia.',
+      refLabel: 'Entrenar vs. Usar',
+    },
+    q5: {
+      question: 'Tu móvil desbloquea con tu cara. Eso es…',
+      o1: 'Entrenamiento, porque el móvil aprende cada día',
+      o2: 'Magia',
+      o3: 'Inferencia: compara tu cara (convertida en números) con el patrón guardado',
+      o4: 'Un truco de la cámara',
+      why: 'Mismo viaje de 5 paradas: entrada (tu cara) → medidas → comparación → predicción → se abre.',
+      refLabel: 'Ejemplos',
+    },
+  },
+};

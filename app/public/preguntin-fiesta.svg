@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <g stroke="#26233F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- confetti -->
+    <circle cx="60" cy="70" r="8" fill="#FF6B4A" stroke="none"/>
+    <circle cx="340" cy="60" r="8" fill="#14B8A6" stroke="none"/>
+    <circle cx="330" cy="150" r="6" fill="#8B5CF6" stroke="none"/>
+    <circle cx="70" cy="170" r="6" fill="#F472B6" stroke="none"/>
+    <rect x="96" y="34" width="16" height="16" rx="3" fill="#14B8A6" stroke="none" transform="rotate(20 104 42)"/>
+    <rect x="286" y="98" width="14" height="14" rx="3" fill="#FF6B4A" stroke="none" transform="rotate(-18 293 105)"/>
+    <path d="M140 30 l8 16 h-16 Z" fill="#FFC53D" stroke="none"/>
+    <path d="M352 108 l8 14 h-16 Z" fill="#F472B6" stroke="none"/>
+    <path d="M46 118 C 60 110, 66 100, 64 88" fill="none" stroke="#14B8A6" stroke-width="5"/>
+    <path d="M348 190 C 336 180, 332 170, 336 158" fill="none" stroke="#FFC53D" stroke-width="5"/>
+    <!-- arms up! -->
+    <path d="M118 232 C 92 214, 76 192, 70 168" fill="none"/>
+    <path d="M282 232 C 308 214, 324 192, 330 168" fill="none"/>
+    <!-- legs jumping -->
+    <path d="M172 336 C 162 348, 150 354, 138 356" fill="none"/>
+    <path d="M228 336 C 238 348, 250 354, 262 356" fill="none"/>
+    <!-- bulb body -->
+    <path d="M200 52
+             C 138 52, 96 96, 96 158
+             C 96 196, 114 224, 140 244
+             C 158 258, 166 276, 168 296
+             L 232 296
+             C 234 276, 242 258, 260 244
+             C 286 224, 304 196, 304 158
+             C 304 96, 262 52, 200 52 Z"
+          fill="#FFC53D"/>
+    <rect x="168" y="304" width="64" height="16" rx="8" fill="#FBEEDB"/>
+    <rect x="176" y="326" width="48" height="14" rx="7" fill="#FBEEDB"/>
+    <!-- cheeks -->
+    <circle cx="142" cy="184" r="14" fill="#FF6B4A" stroke="none" opacity="0.65"/>
+    <circle cx="258" cy="184" r="14" fill="#FF6B4A" stroke="none" opacity="0.65"/>
+    <!-- happy closed eyes -->
+    <path d="M150 158 C 156 148, 172 148, 178 158" fill="none"/>
+    <path d="M222 158 C 228 148, 244 148, 250 158" fill="none"/>
+    <!-- big open smile -->
+    <path d="M176 192 C 186 214, 214 214, 224 192 Z" fill="#26233F"/>
+    <!-- shine -->
+    <path d="M140 104 C 130 116, 124 130, 122 146" fill="none" stroke="#FFFFFF" stroke-width="9" opacity="0.7"/>
+  </g>
+</svg>

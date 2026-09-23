@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <g stroke="#26233F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- thinking dots above head -->
+    <circle cx="228" cy="40" r="6" fill="#8B5CF6" stroke="none"/>
+    <circle cx="256" cy="26" r="8" fill="#8B5CF6" stroke="none" opacity="0.8"/>
+    <circle cx="290" cy="12" r="10" fill="#8B5CF6" stroke="none" opacity="0.6"/>
+    <!-- left arm down -->
+    <path d="M118 238 C 96 252, 84 268, 80 288" fill="none"/>
+    <!-- right arm: hand to chin -->
+    <path d="M282 238 C 300 250, 302 262, 288 268 C 274 274, 254 262, 238 246" fill="none"/>
+    <circle cx="240" cy="244" r="10" fill="#FFE3D3"/>
+    <!-- legs -->
+    <path d="M172 336 C 170 352, 166 362, 158 370" fill="none"/>
+    <path d="M228 336 C 230 352, 234 362, 242 370" fill="none"/>
+    <!-- bulb body -->
+    <path d="M200 52
+             C 138 52, 96 96, 96 158
+             C 96 196, 114 224, 140 244
+             C 158 258, 166 276, 168 296
+             L 232 296
+             C 234 276, 242 258, 260 244
+             C 286 224, 304 196, 304 158
+             C 304 96, 262 52, 200 52 Z"
+          fill="#FFC53D"/>
+    <rect x="168" y="304" width="64" height="16" rx="8" fill="#FBEEDB"/>
+    <rect x="176" y="326" width="48" height="14" rx="7" fill="#FBEEDB"/>
+    <!-- cheeks -->
+    <circle cx="142" cy="186" r="13" fill="#FF6B4A" stroke="none" opacity="0.65"/>
+    <circle cx="258" cy="186" r="13" fill="#FF6B4A" stroke="none" opacity="0.65"/>
+    <!-- raised eyebrow -->
+    <path d="M146 128 C 154 120, 168 118, 178 124" fill="none"/>
+    <path d="M226 134 C 234 130, 246 130, 254 134" fill="none"/>
+    <!-- eyes (one slightly squinting) -->
+    <circle cx="164" cy="158" r="13" fill="#26233F" stroke="none"/>
+    <circle cx="168" cy="153" r="4" fill="#FFFFFF" stroke="none"/>
+    <ellipse cx="238" cy="160" rx="12" ry="9" fill="#26233F" stroke="none"/>
+    <circle cx="241" cy="156" r="3.5" fill="#FFFFFF" stroke="none"/>
+    <!-- hmm mouth -->
+    <path d="M184 206 C 192 202, 204 202, 212 207" fill="none"/>
+    <!-- shine -->
+    <path d="M140 104 C 130 116, 124 130, 122 146" fill="none" stroke="#FFFFFF" stroke-width="9" opacity="0.7"/>
+  </g>
+</svg>

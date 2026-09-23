@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <g stroke="#26233F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- question package in the trunk -->
+    <rect x="34" y="58" width="58" height="48" rx="10" fill="#FFC53D"/>
+    <path d="M55 76 c0-8 14-8 14 0 c0 6-7 6-7 12" fill="none" stroke-width="5"/>
+    <circle cx="62" cy="96" r="3" fill="#26233F" stroke="none"/>
+    <!-- car body -->
+    <path d="M28 128
+             C 28 112, 40 104, 60 102
+             L 96 98
+             C 110 74, 132 62, 162 62
+             C 196 62, 216 78, 226 100
+             L 252 106
+             C 266 110, 272 118, 272 128
+             L 272 140
+             C 272 148, 266 152, 258 152
+             L 42 152
+             C 34 152, 28 148, 28 140 Z"
+          fill="#E04E2D"/>
+    <!-- window -->
+    <path d="M112 96 C 122 78, 138 70, 160 70 C 176 70, 190 76, 198 88 L 200 96 Z" fill="#BFE8FF"/>
+    <!-- door line + handle -->
+    <path d="M160 100 L 160 148" fill="none" stroke-width="4"/>
+    <path d="M172 112 h16" fill="none" stroke-width="4"/>
+    <!-- headlight -->
+    <circle cx="256" cy="126" r="8" fill="#FFC53D" stroke-width="4"/>
+    <!-- wheels -->
+    <circle cx="86" cy="152" r="24" fill="#26233F"/>
+    <circle cx="86" cy="152" r="10" fill="#FFFFFF" stroke-width="4"/>
+    <circle cx="216" cy="152" r="24" fill="#26233F"/>
+    <circle cx="216" cy="152" r="10" fill="#FFFFFF" stroke-width="4"/>
+    <!-- wheel sparkle -->
+    <path d="M80 146 l6 6 M92 146 l-6 6" stroke="#FFFFFF" stroke-width="3"/>
+    <!-- motion dashes -->
+    <path d="M6 120 h14 M2 140 h16" fill="none" stroke="#FF6B4A" stroke-width="5"/>
+  </g>
+</svg>

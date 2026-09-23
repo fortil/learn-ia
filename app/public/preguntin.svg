@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <g stroke="#26233F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- sparkle -->
+    <path d="M318 78 v34 M301 95 h34" fill="none"/>
+    <path d="M66 120 v24 M54 132 h24" fill="none" stroke="#FF6B4A"/>
+    <!-- arms -->
+    <path d="M118 238 C 92 250, 76 266, 70 286" fill="none"/>
+    <path d="M282 238 C 308 250, 324 266, 330 286" fill="none"/>
+    <!-- legs -->
+    <path d="M172 336 C 170 352, 166 362, 158 370" fill="none"/>
+    <path d="M228 336 C 230 352, 234 362, 242 370" fill="none"/>
+    <!-- bulb body -->
+    <path d="M200 52
+             C 138 52, 96 96, 96 158
+             C 96 196, 114 224, 140 244
+             C 158 258, 166 276, 168 296
+             L 232 296
+             C 234 276, 242 258, 260 244
+             C 286 224, 304 196, 304 158
+             C 304 96, 262 52, 200 52 Z"
+          fill="#FFC53D"/>
+    <!-- bulb base -->
+    <rect x="168" y="304" width="64" height="16" rx="8" fill="#FBEEDB"/>
+    <rect x="176" y="326" width="48" height="14" rx="7" fill="#FBEEDB"/>
+    <!-- cheeks -->
+    <circle cx="142" cy="182" r="14" fill="#FF6B4A" stroke="none" opacity="0.65"/>
+    <circle cx="258" cy="182" r="14" fill="#FF6B4A" stroke="none" opacity="0.65"/>
+    <!-- eyes -->
+    <circle cx="164" cy="156" r="13" fill="#26233F" stroke="none"/>
+    <circle cx="236" cy="156" r="13" fill="#26233F" stroke="none"/>
+    <circle cx="168" cy="151" r="4" fill="#FFFFFF" stroke="none"/>
+    <circle cx="240" cy="151" r="4" fill="#FFFFFF" stroke="none"/>
+    <!-- curious smile -->
+    <path d="M178 196 C 188 208, 212 208, 222 196" fill="none"/>
+    <!-- shine -->
+    <path d="M140 104 C 130 116, 124 130, 122 146" fill="none" stroke="#FFFFFF" stroke-width="9" opacity="0.7"/>
+  </g>
+</svg>

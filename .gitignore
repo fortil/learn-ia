@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env*
+PLAN-Scheduled-zai.md
+zai-puntos/
+plan.md
+explicacion-pagina.md

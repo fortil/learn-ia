@@ -1,0 +1,92 @@
+export default {
+  cover: {
+    sticker: 'Final explorer test',
+    // reassembled as titleBefore + <underlined titleHighlight> + titleAfter
+    titleBefore: 'How much do you already know about the ',
+    titleHighlight: 'journey',
+    titleAfter: '?',
+    subtitle:
+      '5 questions, 30 seconds each at most (no real timer, relax). At the end: your AI Explorer badge.',
+    cta: "Let's go!",
+    mascotAlt: 'Preguntín celebrating with confetti',
+  },
+  game: {
+    // progress header: questionWord + n + of + total
+    questionWord: 'Question',
+    of: 'of',
+    why: 'Why?',
+    seenAt: 'You saw this in:',
+    next: 'Next',
+    seeBadge: 'See my badge',
+  },
+  result: {
+    badgeAlt: 'AI Explorer badge',
+    titlePerfect: 'Legendary Explorer! 🏆',
+    titleGood: 'Official Explorer! ⭐',
+    titleLow: 'Explorer in Training 🌱 — the map awaits you for another ride.',
+    // reassembled as scoreBefore + score + scoreOf + total + scoreAfter
+    scoreBefore: 'You got ',
+    scoreOf: ' of ',
+    scoreAfter: '. You now know more about inference than 90% of the people who use it daily.',
+    restart: 'Retake the quiz',
+    revisitMap: 'Revisit the map',
+    share: 'Share my badge',
+    copied: 'Copied!',
+    // reassembled as shareTextBefore + score/total + shareTextAfter
+    shareTextBefore: "I'm an AI Explorer! I scored ",
+    shareTextAfter: " on 'El Viaje de tu Pregunta' 🧭",
+  },
+  review: {
+    title: 'Review your answers',
+    yourAnswer: 'Your answer:',
+    correctAnswer: 'The right one:',
+    reviewAt: 'Review it in:',
+  },
+  questions: {
+    q1: {
+      question: "You type a question to an AI. What's the FIRST thing that happens?",
+      o1: 'The AI thinks for a while like a person',
+      o2: "Your question enters the system: it's 'the input'",
+      o3: 'The AI looks up the answer on Google',
+      o4: 'Your question is stored forever',
+      why: 'No input, no journey: text, voice, or photo — everything starts there.',
+      refLabel: 'The Map · Stop 1',
+    },
+    q2: {
+      question: "What are 'tokens'?",
+      o1: 'Coins to pay the AI',
+      o2: 'Little pieces your sentence gets chopped into (words or word fragments)',
+      o3: 'The servers where the AI lives',
+      o4: 'Secret passwords',
+      why: 'Like slicing bread: manageable chunks that get turned into numbers.',
+      refLabel: 'The Map · Stop 2',
+    },
+    q3: {
+      question: 'How does the AI write its answers?',
+      o1: 'It copies whole paragraphs from the internet',
+      o2: 'It blurts out all the words at once',
+      o3: 'It predicts the most likely word, one after another',
+      o4: 'It asks other AIs',
+      why: "Like your phone's autocorrect: next word, next word… until it's done.",
+      refLabel: 'The Map · Stop 4',
+    },
+    q4: {
+      question: "What's the difference between training and inference?",
+      o1: "They're two names for the same thing",
+      o2: 'Training = learning once (months, super pricey); inference = using what was learned every time you ask (seconds)',
+      o3: 'Training is what you do when you practice',
+      o4: 'Inference is when the AI studies',
+      why: 'The chef: years learning recipes = training; cooking your dish = inference.',
+      refLabel: 'Train vs. Use',
+    },
+    q5: {
+      question: 'Your phone unlocks with your face. That is…',
+      o1: 'Training, because the phone learns every day',
+      o2: 'Magic',
+      o3: 'Inference: it compares your face (turned into numbers) with the saved pattern',
+      o4: 'A camera trick',
+      why: 'Same 5-stop journey: input (your face) → measurements → comparison → prediction → it opens.',
+      refLabel: 'Examples',
+    },
+  },
+};
