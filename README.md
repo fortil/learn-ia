@@ -39,6 +39,18 @@ Procedencia de las builds hasta la fecha:
 - Build local del 20 de septiembre de 2026: generada en este equipo, nunca
   desplegada.
 
+**Verificación de reproducibilidad (23 de septiembre de 2026).** Un clon
+limpio de este repo, con `npm ci && npm run build` en Node 22.16, produce un
+`dist/` cuyo JS y CSS coinciden byte a byte (mismo SHA-256) con la build local
+del 20 de septiembre. No coincide con la build del 9 de septiembre que está
+en producción: ese JS (`index-DAUpj8m_.js`) no aparece en ningún build hecho
+desde este código fuente. La causa concreta se desconoce; el código en
+`app/src` y `app/public` no cambió después del 9 de septiembre, así que el
+origen más probable es un drift de dependencias o de entorno de build entre
+esa fecha y el 20 de septiembre. A partir de este commit, cada deploy debe
+salir de un tag de este repo para que este tipo de discrepancia deje de
+poder pasar sin dejar rastro.
+
 ## Licencia
 
 MIT. Ver [LICENSE](LICENSE).
