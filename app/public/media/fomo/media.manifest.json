@@ -1,0 +1,4 @@
+{
+  "comment": "Trace of every media file published with the /fomo page. The mp4 files themselves are not in git (bucket + local disk are the only copies); this manifest records name, bytes and sha256 so what was published is auditable. check-fomo.mjs --media verifies each entry against the files in public/media/fomo. Fill each entry in F5 when the final cut is approved.",
+  "media": []
+}

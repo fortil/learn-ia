@@ -7,6 +7,7 @@ import EntrenamientoVsInferencia from './pages/EntrenamientoVsInferencia'
 import Ejemplos from './pages/Ejemplos'
 import Mitos from './pages/Mitos'
 import Quiz from './pages/Quiz'
+import Fomo from './pages/Fomo'
 import PageStub from './pages/PageStub'
 
 function ScrollToTop() {
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="ejemplos" element={<Ejemplos />} />
         <Route path="mitos" element={<Mitos />} />
         <Route path="quiz" element={<Quiz />} />
+        <Route path="fomo" element={<Fomo />} />
         <Route path="*" element={<PageStub title="Ups, esta parada no existe" sticker="Error 404" stickerColor="coral" />} />
       </Route>
     </Routes>
