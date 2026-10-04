@@ -92,8 +92,9 @@ export const TIPS: readonly TipMeta[] = [
 /**
  * Habit 4 chapters, in seconds inside fomo-4.v1.mp4 (printed by
  * montar-fomo.py habito4): where the real part of each block starts.
+ * Regenerated with the 2x doodle entrances (2026-10-03).
  */
-export const H4_CHAPTER_STARTS: readonly number[] = [3.1, 7.2, 11.3, 14.4];
+export const H4_CHAPTER_STARTS: readonly number[] = [2.6, 6.7, 10.8, 13.9];
 
 /** WEF Future of Jobs 2025 (G2, "Para profundizar"). */
 export const G2_JOBS_2030 = {

@@ -3,63 +3,63 @@
   "media": [
     {
       "name": "fomo-0.v1.mp4",
-      "bytes": 2019769,
-      "sha256": "11ef705f5cf97aaaa5fb39be8e743d03423fa43abaa6b00e7d96f6bc1fe8e7e1"
+      "bytes": 1942255,
+      "sha256": "946b07408dc13719bc1ab43b0a91c21364c99ec5ce95cd16d37a0e3302ece390"
     },
     {
       "name": "fomo-0.v1.jpg",
-      "bytes": 26614,
-      "sha256": "4995f275739e680061c87f37c80df7eb81c037ce0c64f21e0a59dde7d9843d0d"
+      "bytes": 26079,
+      "sha256": "ee079cbf68055a4e3e4dad8b5ac8a13b94872661beef7c7b0133025e55aa30e5"
     },
     {
       "name": "fomo-1.v1.mp4",
-      "bytes": 1848443,
-      "sha256": "eee2ef30e7511b3bf2f52ca9510dd5a32bc9f7dbe24d8352fcfb95faaa8e9e35"
+      "bytes": 2660836,
+      "sha256": "8af360f0d5b9c28d58842ffa86575fb63171bc1a872f0982195ccaef6b05e1ae"
     },
     {
       "name": "fomo-1.v1.jpg",
-      "bytes": 43282,
-      "sha256": "b0be2ed54a17157e8e1618fafd2df4a3e94e7286d72a04d32d71835edd25f240"
+      "bytes": 41000,
+      "sha256": "d6b04b6c23c3564ec54ee3f64a7e44a5a043be09c024b5611dc3fddb49084b4e"
     },
     {
       "name": "fomo-2.v1.mp4",
-      "bytes": 2443238,
-      "sha256": "54ca167604d1bf8b3f291837dda1361898f88412d25c5d6f4b3cb087b76f6403"
+      "bytes": 2330844,
+      "sha256": "9effc231e437c20a2c76183ef4e1701d6bf8de1b46d22c5226fc7462992f5f87"
     },
     {
       "name": "fomo-2.v1.jpg",
-      "bytes": 32871,
-      "sha256": "cf736d0f6c5c41af144e9da1780ef3370550182641ddc24c04780e0ce167baed"
+      "bytes": 32600,
+      "sha256": "b6713e426990abfa98b167943a48784dbd2e18d0425fabd0ff64fef1a848a192"
     },
     {
       "name": "fomo-3.v1.mp4",
-      "bytes": 751069,
-      "sha256": "4b0e0c3a4d9f6a5eeaa731557a97c44421f53233dfa1813c4349545cfe2fcc09"
+      "bytes": 682335,
+      "sha256": "6303d5f89eb31ae0bca08961cf11728bb2d37a8d946c2a45ebf15ca47272336d"
     },
     {
       "name": "fomo-3.v1.jpg",
-      "bytes": 57948,
-      "sha256": "e76df577c2cfb5eee24516bb0a06363297bed430faff3eb44ab6d9d04d3ddfd9"
+      "bytes": 57653,
+      "sha256": "f2e326f87c9fab0ee1c07aad389d2610cf1b5daf4db32de92d96765dc89e73d2"
     },
     {
       "name": "fomo-4.v1.mp4",
-      "bytes": 1604536,
-      "sha256": "d5cec7e88b5b605229a753883d1c21477499643f13ca68fa2ea08de4b8efabb3"
+      "bytes": 1624110,
+      "sha256": "f1e04c4a66515043862a8d1d3e9c922de8c1801d0e8b8bb6ec7899db72b05e69"
     },
     {
       "name": "fomo-4.v1.jpg",
-      "bytes": 39269,
-      "sha256": "734eeb8cd808f7e2634e73ef699135de6704fe309ca8f8ebc2da9ad0097b9ca8"
+      "bytes": 38755,
+      "sha256": "e0331d32f9d1e4bdee7a6621c339b0dffa12a8239c2a2c04ea2052cc483298f6"
     },
     {
       "name": "fomo-5.v1.mp4",
-      "bytes": 2195693,
-      "sha256": "38065a644019174a0be9d725f33d127b1f2154cb418ee0c77938e46379dd5e1a"
+      "bytes": 2025638,
+      "sha256": "70bdd3fb8728663bfd5462d4b345ff60c673a01695256dae6945977337a378b0"
     },
     {
       "name": "fomo-5.v1.jpg",
-      "bytes": 50511,
-      "sha256": "993046a13a7ea3f28e0259b9bd917df421f32639656229352ddac4b465e50604"
+      "bytes": 50131,
+      "sha256": "2fd78fedc8b3329b5ed39cbd07bc1ab2f8c4ecba1e8e058f8231c67823aca866"
     }
   ]
 }
