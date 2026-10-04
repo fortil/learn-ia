@@ -7,17 +7,18 @@
 export const FOMO_MEDIA = '/media/fomo';
 
 /**
- * Section videos. null until F5 finishes postproduction (the page ships with
- * placeholders). Final names: fomo-{0..5}.v{N}.mp4 + poster .jpg, listed in
- * public/media/fomo/media.manifest.json.
+ * Section videos. Postproduced finals (montar-fomo.py in the contenido repo,
+ * episodio 032): 5 s doodle entrance + real clip, 720x1280@30, CRF 26. A null
+ * src would show the "video en camino" placeholder; flip it back if a clip
+ * ever gets disputed. Listed in public/media/fomo/media.manifest.json.
  */
 export const SECTION_VIDEOS: ReadonlyArray<{ src: string | null; poster: string | null }> = [
-  { src: null, poster: null }, // fomo-0 · El rival no existía
-  { src: null, poster: null }, // fomo-1 · Hábito 1
-  { src: null, poster: null }, // fomo-2 · Hábito 2
-  { src: null, poster: null }, // fomo-3 · Hábito 3
-  { src: null, poster: null }, // fomo-4 · Hábito 4
-  { src: null, poster: null }, // fomo-5 · Hábito 5
+  { src: `${FOMO_MEDIA}/fomo-0.v1.mp4`, poster: `${FOMO_MEDIA}/fomo-0.v1.jpg` },
+  { src: `${FOMO_MEDIA}/fomo-1.v1.mp4`, poster: `${FOMO_MEDIA}/fomo-1.v1.jpg` },
+  { src: `${FOMO_MEDIA}/fomo-2.v1.mp4`, poster: `${FOMO_MEDIA}/fomo-2.v1.jpg` },
+  { src: `${FOMO_MEDIA}/fomo-3.v1.mp4`, poster: `${FOMO_MEDIA}/fomo-3.v1.jpg` },
+  { src: `${FOMO_MEDIA}/fomo-4.v1.mp4`, poster: `${FOMO_MEDIA}/fomo-4.v1.jpg` },
+  { src: `${FOMO_MEDIA}/fomo-5.v1.mp4`, poster: `${FOMO_MEDIA}/fomo-5.v1.jpg` },
 ];
 
 export type TipInteraction = 'flip3' | 'checklist' | 'flip1' | 'chapters' | 'bars';
@@ -89,11 +90,10 @@ export const TIPS: readonly TipMeta[] = [
 ];
 
 /**
- * Habit 4 chapters, in seconds inside fomo-4.v1.mp4. Provisional until the
- * final cut timings land in F5: intro puppet ~3 s, then four blocks of
- * ~0.8 s vignette + ~2.7 s real clip.
+ * Habit 4 chapters, in seconds inside fomo-4.v1.mp4 (printed by
+ * montar-fomo.py habito4): where the real part of each block starts.
  */
-export const H4_CHAPTER_STARTS: readonly number[] = [3, 6.5, 10, 13.5];
+export const H4_CHAPTER_STARTS: readonly number[] = [3.1, 7.2, 11.3, 14.4];
 
 /** WEF Future of Jobs 2025 (G2, "Para profundizar"). */
 export const G2_JOBS_2030 = {
