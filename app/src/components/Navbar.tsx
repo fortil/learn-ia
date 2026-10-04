@@ -14,9 +14,10 @@ export const NAV_LINKS = [
   { to: '/ejemplos', labelKey: 'nav.links.ejemplos' },
   { to: '/mitos', labelKey: 'nav.links.mitos' },
   { to: '/quiz', labelKey: 'nav.links.quiz' },
+  { to: '/fomo', labelKey: 'fomo.nav.label' },
 ] as const;
 
-const LINK_ROTATIONS = [-1.5, 1, -1, 1.5, -0.5, 1];
+const LINK_ROTATIONS = [-1.5, 1, -1, 1.5, -0.5, 1, 1.5];
 
 const LANGUAGES: Language[] = ['es', 'en'];
 
@@ -69,7 +70,8 @@ export default function Navbar() {
 
           <ul className="hidden items-center gap-5 lg:flex">
             {NAV_LINKS.map(({ to, labelKey }) => (
-              <li key={to}>
+              /* the seventh link only fits the desktop bar from 1280px up */
+              <li key={to} className={to === '/fomo' ? 'hidden xl:block' : undefined}>
                 <NavLink
                   to={to}
                   end={to === '/'}

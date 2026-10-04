@@ -97,7 +97,7 @@ export default {
     // question variants shown in the demo (labels + pattern descriptions)
     v1Label: '¿Qué tiempo hará mañana en Bogotá?',
     v1P1: 'preguntas de tiempo → mañana, nubes, sol…',
-    v1P2: 'Bogotá → capital, España, ciudad…',
+    v1P2: 'Bogotá → capital, Colombia, ciudad…',
     v1P3: 'tiempo + mañana → previsión, probabilidad…',
     v2Label: 'Recomiéndame una película',
     v2P1: 'película + recomendar → género, gustos, éxitos…',

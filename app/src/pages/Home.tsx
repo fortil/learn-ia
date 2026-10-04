@@ -4,6 +4,7 @@ import MiniMapSection from '@/sections/home/MiniMapSection';
 import AnalogiesSection from '@/sections/home/AnalogiesSection';
 import FactsStrip from '@/sections/home/FactsStrip';
 import FinalCTA from '@/sections/home/FinalCTA';
+import FomoBanner from '@/sections/home/FomoBanner';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <MiniMapSection />
       <AnalogiesSection />
       <FactsStrip />
+      <FomoBanner />
       <FinalCTA />
     </>
   );

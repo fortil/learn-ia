@@ -97,7 +97,7 @@ export default {
     // question variants shown in the demo (labels + pattern descriptions)
     v1Label: "What's the weather like in Bogotá tomorrow?",
     v1P1: 'weather questions → tomorrow, clouds, sun…',
-    v1P2: 'Bogotá → capital, Spain, city…',
+    v1P2: 'Bogotá → capital, Colombia, city…',
     v1P3: 'weather + tomorrow → forecast, probability…',
     v2Label: 'Recommend me a movie',
     v2P1: 'movie + recommend → genre, taste, hits…',

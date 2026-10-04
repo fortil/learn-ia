@@ -7,6 +7,7 @@ import entrenar from './entrenar';
 import ejemplos from './ejemplos';
 import mitos from './mitos';
 import quiz from './quiz';
+import fomo from './fomo';
 
 /**
  * Spanish dictionary (source of truth). One module per namespace;
@@ -22,4 +23,5 @@ export default {
   ejemplos,
   mitos,
   quiz,
+  fomo,
 };

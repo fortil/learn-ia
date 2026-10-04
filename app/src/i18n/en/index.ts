@@ -7,6 +7,7 @@ import entrenar from './entrenar';
 import ejemplos from './ejemplos';
 import mitos from './mitos';
 import quiz from './quiz';
+import fomo from './fomo';
 
 /**
  * English dictionary. Mirrors the Spanish structure; any key left out
@@ -22,4 +23,5 @@ export default {
   ejemplos,
   mitos,
   quiz,
+  fomo,
 };
