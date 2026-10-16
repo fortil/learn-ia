@@ -1,5 +1,13 @@
 # learn-ia
 
+<p align="center">
+  <a href="https://github.com/fortil/learn-ia"><img src="https://img.shields.io/badge/github-fortil%2Flearn--ia-181717?logo=github" alt="github.com/fortil/learn-ia"></a>
+  <a href="https://learn-ia.williampenagos.com/"><img src="https://img.shields.io/badge/sitio-learn--ia.williampenagos.com-blue?logo=googlechrome" alt="sitio en vivo"></a>
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite" alt="Vite">
+</p>
+
 Sitio interactivo en español que explica qué es la inferencia en IA a una
 audiencia no técnica, con un mapa navegable paso a paso, comparación
 entrenamiento vs. inferencia, ejemplos cotidianos, mitos comunes y un quiz.
